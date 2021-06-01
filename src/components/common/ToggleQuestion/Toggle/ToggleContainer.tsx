@@ -9,12 +9,10 @@ interface OptionProps {
   values: string[];
   textColor:string;
   onSelect: (answerIndex: number) => void;
-
-  //toggleLock: boolean;
 };
 
 function AnswerToggle(props:OptionProps) {
-  console.log(props.toggleLock)
+
   return (
     <div className={classes.ToggleAnswer}>
         <Overlay
@@ -29,8 +27,6 @@ function AnswerToggle(props:OptionProps) {
           onClick={() => props.onSelect(index)}
           selected={props.selectedIndex === index}
           textColor={props.textColor}
-
-          //toggleLock={props.toggleLock}
         />
       ))}
     </div>

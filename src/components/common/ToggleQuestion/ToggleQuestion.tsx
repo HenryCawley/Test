@@ -57,11 +57,6 @@ const data = {
         ? 'The answer is correct!'
         : 'The answer is incorrect.'
       );
-
-      //setToggleLock(correctRate === 1
-      //  ? true
-      //  : false
-      //);
   }
 
 
@@ -84,8 +79,6 @@ const data = {
             values={option.values}
             textColor={`hsl(${primaryHue},${primarySaturation}%,${primaryLightness}%)`}
             selectedIndex={selectedIndices[optionIndex]}
-
-            //toggleLock={`${toggleLock}`}
         />
         ))}
 

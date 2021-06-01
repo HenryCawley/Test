@@ -5,11 +5,9 @@ type TextProps = {
     selected: boolean,
     onClick: () => void,
     textColor: string;
-    toggleLock: boolean;
 };
 
 function AnswerSelected(props:TextProps) {
-  console.log(props.toggleLock)
   return (
     <button
       className={classes.Option}
@@ -19,14 +17,6 @@ function AnswerSelected(props:TextProps) {
         : ''
       }`}}
       onClick={() => props.onClick()}
-
-      //COMMENTED OUT CODE FOR ATTEMPTING TO LOCK THE TOGGLE
-      //onClick={`{
-      //${props.toggleLock === true
-      //  ? ''
-      //  : () => props.onClick()
-      //}}`}
-
     >
       {props.label}
     </button>
