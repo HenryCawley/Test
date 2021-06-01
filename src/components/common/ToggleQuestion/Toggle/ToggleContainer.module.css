@@ -1,0 +1,40 @@
+.ToggleAnswer {
+  position: relative;
+  width: 307px;
+  height: 45px;
+  margin: 0 auto 20px auto;
+  padding: 0 0 0 0;
+  border-radius: 100px;
+  border: solid 1px #fbfbfb;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .ToggleAnswer {
+    width:300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ToggleAnswer {
+    width:280px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ToggleAnswer {
+    width:260px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ToggleAnswer {
+    width:240px;
+  }
+}
+
+@media (max-width: 320px) {
+  .ToggleAnswer {
+    width:230px;
+  }
+}

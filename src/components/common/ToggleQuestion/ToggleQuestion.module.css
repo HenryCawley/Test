@@ -1,0 +1,37 @@
+.ToggleQuestionContainer {
+  width: 710px;
+  height: 365px;
+  margin: 73px auto 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 6px rgba(167, 196, 220, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .ToggleQuestionContainer {
+    width:610px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ToggleQuestionContainer {
+    width:560px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ToggleQuestionContainer {
+    width:500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ToggleQuestionContainer {
+    width:350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .ToggleQuestionContainer {
+    width:300px;
+  }
+}

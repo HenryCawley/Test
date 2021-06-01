@@ -1,0 +1,45 @@
+.Question {
+  width: 728px;
+  height: 18px;
+  padding: 40px 0px 20px 0px;
+  font-family: Muli;
+  font-size: 16px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .Question {
+    width:610px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Question {
+    width:560px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Question {
+    width:500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Question {
+    width:350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Question {
+    width:300px;
+    font-size: 14px;
+  }
+}

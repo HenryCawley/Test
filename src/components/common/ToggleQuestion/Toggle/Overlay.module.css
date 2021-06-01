@@ -1,0 +1,16 @@
+.Overlay {
+  position: absolute;
+  z-index: 10;
+  height: 45px;
+  border-radius: 100px;
+  box-shadow: 0 0 6px 0.5px;
+  background-color: #fff;
+  opacity: 0.5;
+  margin-left: 0;
+  transition: transform 0.2s;
+}
+
+@keyframes slideLeft {
+  0% {margin-left:144px;}
+  100% {margin-left:0px;}
+}

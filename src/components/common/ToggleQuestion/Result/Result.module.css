@@ -1,0 +1,40 @@
+.Answer {
+  width: 710px;
+  height: 18px;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .Answer {
+    width:610px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Answer {
+    width:560px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Answer {
+    width:500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Answer {
+    width:350px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Answer {
+    width:300px;
+  }
+}
